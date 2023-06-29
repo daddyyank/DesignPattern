@@ -1,7 +1,7 @@
-package com.zhanghd.designpattern.visitor.products;
+package com.zhanghd.designpattern.visitor.concreteElement;
 
 
-import com.zhanghd.designpattern.visitor.visitor.Product;
+import com.zhanghd.designpattern.visitor.element.Product;
 import com.zhanghd.designpattern.visitor.visitor.ProductVisitor;
 import lombok.Data;
 
@@ -23,6 +23,11 @@ public class Fruit implements Product {
      * 价格
      */
     double price;
+
+    public Fruit(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
 
     @Override
     public void accept(ProductVisitor visitor) {

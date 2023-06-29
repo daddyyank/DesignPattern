@@ -1,8 +1,8 @@
-package com.zhanghd.designpattern.visitor;
+package com.zhanghd.designpattern.visitor.visitor;
 
-import com.zhanghd.designpattern.visitor.products.Beverage;
-import com.zhanghd.designpattern.visitor.products.Fruit;
-import com.zhanghd.designpattern.visitor.products.Vegetable;
+import com.zhanghd.designpattern.visitor.concreteElement.Beverage;
+import com.zhanghd.designpattern.visitor.concreteElement.Fruit;
+import com.zhanghd.designpattern.visitor.concreteElement.Vegetable;
 
 public interface ProductVisitor {
 
