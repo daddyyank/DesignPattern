@@ -5,6 +5,13 @@ import com.zhanghd.designpattern.visitor.concreteElement.Fruit;
 import com.zhanghd.designpattern.visitor.concreteElement.Vegetable;
 import com.zhanghd.designpattern.visitor.visitor.ProductVisitor;
 
+
+/**
+ *  @author: zhanghd
+ *  @Date: 2023/6/29 4:49 PM
+ *  @email: zhang-haodi@smtp.telek.com.cn
+ *  @Description: 访问者 -> 促销员
+ */
 public class Promotion implements ProductVisitor {
     @Override
     public void visit(Fruit fruit) {
